@@ -1,0 +1,92 @@
+@font-face {
+    font-family: happy;
+    src: url(happy-monkey.regular.ttf);
+}
+#calvin{
+    border: 5px solid #1d3557;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    margin: 0;
+}
+.size{
+    font-weight: bold;
+}
+body{
+    background: linear-gradient( #457b9d,#8ecae6 );
+   
+    color: aliceblue;
+    text-align: center;
+    font-family: happy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 , h2 , p , h3 {
+    text-shadow: 0 0 5px black;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#years{
+    background: #1d3557;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px 0 10px 0;
+}
+#date{
+    margin: 0;
+    background: #1d3557;
+    border-radius: 15px;
+    padding: 10px;
+}
+.giftimg{
+    background-image: url(cover.avif);
+    width: 400px;
+    height: 400px;
+    border: 10px solid #1d3557;
+    border-radius: 15px;
+    margin: 0 auto;
+    background-size: 100% 100% ;
+}
+#welcome:hover{
+    background-image: url(dancy/dance.gif);
+    background-size: cover;
+}
+
+#shmexy:hover{
+    background-image: url(sweaty/sweat.gif);
+    background-size: cover;
+}
+#idiot:hover{
+    background-image: url(dumb/dumber.gif);
+    background-size: cover;
+}
+#boom:hover{
+    background-image: url(sans.gif);
+    background-size: 100% 100%;
+}
+#cheers{
+    height: 280px;
+    margin-bottom: 0;
+}
+#cheers:hover{
+    background-image: url(charity/cheers.gif);
+    height: 280px;
+    background-size: 100% 100%;
+}
+.footer{
+    font-style: italic;
+    margin: 40px 0 0 0 ;
+    
+}
+#course{
+    margin: 0 0 30px 0;
+    text-decoration: underline;
+}
+a{
+    color: aliceblue;
+}

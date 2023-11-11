@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../aligh-items"
+	},
+	{
+		"path": "../../chap1/google clone/space-station"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "space-station"
+  }
+}
